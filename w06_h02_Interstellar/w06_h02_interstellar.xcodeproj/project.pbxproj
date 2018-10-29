@@ -9,6 +9,117 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>4C062A372606CDCD1ADC6ED9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>sun.hpp</string>
+				<key>path</key>
+				<string>src/sun.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>05D33028EBCDBFBEBFE7B82F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>star.hpp</string>
+				<key>path</key>
+				<string>src/star.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AF6952F40C968DE6E4D5B95A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>27A1E1D76CCA8A69F4568246</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>27A1E1D76CCA8A69F4568246</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>earth.cpp</string>
+				<key>path</key>
+				<string>src/earth.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>207E46074724CEAB07D84A7C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>earth.hpp</string>
+				<key>path</key>
+				<string>src/earth.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E1ABCA18860688B2F161C9C1</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C7EC5C150BF0D24D95FB1428</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C7EC5C150BF0D24D95FB1428</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>star.cpp</string>
+				<key>path</key>
+				<string>src/star.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BEF570BEF3CF145652147245</key>
+			<dict>
+				<key>fileRef</key>
+				<string>EBD8C9E25F6C26E73084CF44</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>EBD8C9E25F6C26E73084CF44</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>sun.cpp</string>
+				<key>path</key>
+				<string>src/sun.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
@@ -509,6 +620,9 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>BEF570BEF3CF145652147245</string>
+					<string>E1ABCA18860688B2F161C9C1</string>
+					<string>AF6952F40C968DE6E4D5B95A</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -549,7 +663,7 @@ fi
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>w03_h02_portrait</string>
+				<string>w06_h02_interstellar</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -566,7 +680,7 @@ fi
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>w03_h02_portraitDebug.app</string>
+				<string>w06_h02_interstellarDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>
@@ -682,6 +796,12 @@ fi
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
+					<string>EBD8C9E25F6C26E73084CF44</string>
+					<string>C7EC5C150BF0D24D95FB1428</string>
+					<string>207E46074724CEAB07D84A7C</string>
+					<string>27A1E1D76CCA8A69F4568246</string>
+					<string>05D33028EBCDBFBEBFE7B82F</string>
+					<string>4C062A372606CDCD1ADC6ED9</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
